@@ -1677,3 +1677,201 @@ COMMIT;
 /* ============================================================
  FIN DE SCRIPT
  ============================================================ */
+ /* ============================================================
+ MAZMORRA: Granero del Girasol Hambriento
+ Corrección de los mapas de teletransporte de algunas mazmorras
+ ============================================================ */
+START TRANSACTION;
+
+/* ============================================================
+ SALA 5 A SALIDA - DungeonSpawnId = 10
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 552,
+  TeleportMapId = 190318594
+WHERE
+  Id = 10;
+
+COMMIT;
+
+/* ============================================================
+ FIN DE SCRIPT
+ ============================================================ */
+/* ============================================================
+ MAZMORRA: Corte del Jalató Real
+ Corrección de los mapas de teletransporte de algunas mazmorras
+ ============================================================ */
+START TRANSACTION;
+
+/* ============================================================
+ SALA 5 A SALIDA - DungeonSpawnId = 20
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 478,
+  TeleportMapId = 121375235
+WHERE
+  Id = 20;
+
+COMMIT;
+
+/* ============================================================
+ FIN DE SCRIPT
+ ============================================================ */
+/* ============================================================
+ MAZMORRA: Mansión Encantada
+ Corrección de los mapas de teletransporte de algunas mazmorras
+ ============================================================ */
+START TRANSACTION;
+
+/* ============================================================
+ SALA 5 A SALIDA - DungeonSpawnId = 25
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 479,
+  TeleportMapId = 163583488
+WHERE
+  Id = 25;
+
+COMMIT;
+
+/* ============================================================
+ FIN DE SCRIPT
+ ============================================================ */
+/* ============================================================
+ MAZMORRA: Mazmorra de los Esqueletos
+ Corrección de los mapas de teletransporte de algunas mazmorras
+ ============================================================ */
+START TRANSACTION;
+
+/* ============================================================
+ SALA 5 A SALIDA - DungeonSpawnId = 35
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 472,
+  TeleportMapId = 87034370
+WHERE
+  Id = 35;
+
+COMMIT;
+
+/* ============================================================
+ FIN DE SCRIPT
+ ============================================================ */
+/* ============================================================
+ MAZMORRA: Mazmorra de los Tofus
+ Corrección de los mapas de teletransporte de algunas mazmorras
+ ============================================================ */
+START TRANSACTION;
+
+/* ============================================================
+ SALA 5 A SALIDA - DungeonSpawnId = 40
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 451,
+  TeleportMapId = 96210946
+WHERE
+  Id = 40;
+
+COMMIT;
+
+/* ============================================================
+ FIN DE SCRIPT
+ ============================================================ */
+/* ============================================================
+ MAZMORRA: Escondrijo de Blatarata
+ Corrección de los mapas de teletransporte de algunas mazmorras
+ ============================================================ */
+START TRANSACTION;
+
+/* ============================================================
+ SALA 5 A SALIDA - DungeonSpawnId = 45
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 435,
+  TeleportMapId = 146538496
+WHERE
+  Id = 45;
+
+COMMIT;
+
+/* ============================================================
+ FIN DE SCRIPT
+ ============================================================ */
+/* ============================================================
+ MAZMORRA: Caverna de los Bulbos
+ Corrección de los mapas de teletransporte de algunas mazmorras
+ ============================================================ */
+START TRANSACTION;
+
+/* ============================================================
+ SALA 5 A SALIDA - DungeonSpawnId = 50
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 463,
+  TeleportMapId = 17566977
+WHERE
+  Id = 50;
+
+COMMIT;
+
+/* ============================================================
+ FIN DE SCRIPT
+ ============================================================ */
+/* ============================================================
+ MAZMORRA: Mazmorra de los Bworks
+ Corrección de los mapas de teletransporte de algunas mazmorras
+ ============================================================ */
+START TRANSACTION;
+
+/* ============================================================
+ SALA 5 A SALIDA - DungeonSpawnId = 51
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 444,
+  TeleportMapId = 104596993
+WHERE
+  Id = 51;
+
+COMMIT;
+
+/* ============================================================
+ FIN DE SCRIPT
+ ============================================================ */
+/* ============================================================
+ MAZMORRA: Mazmorra de los Herreros
+ Corrección de los mapas de teletransporte de algunas mazmorras
+ ============================================================ */
+START TRANSACTION;
+
+/* ============================================================
+ SALA 5 A SALIDA - DungeonSpawnId = 56
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 226,
+  TeleportMapId = 87296513
+WHERE
+  Id = 56;
+
+COMMIT;
+
+/* ============================================================
+ FIN DE SCRIPT
+ ============================================================ */
