@@ -40,16 +40,6 @@ COMMIT;
  Entrada y salida de la mazmorra, npcs asignados Mawy Ingals, con sus respectivas acciones y diálogos para teletransportar a los jugadores dentro y fuera de la mazmorra.
 ============================================================ */
 START TRANSACTION;
-INSERT INTO interactives_skills 
-(Type, Duration, `Condition`, CustomTemplateId, Parameter0, Parameter1, Parameter2, Parameter3, Parameter4, AdditionalParameters)
-VALUES  
-('Teleport', 0, NULL, NULL, 192937992, 369, 7, NULL, NULL, NULL),
-('Teleport', 0, NULL, NULL, 189794311, 356, 3, NULL, NULL, NULL);
-INSERT INTO interactives_spawns_skills
-(InteractiveSpawnId, SkillId)
-VALUES 
- (515692, 100355),
- (515690, 100356);
 INSERT INTO npcs_spawns 
 (NpcId, MapId, CellId, Direction, Npc)
 VALUES  
@@ -155,18 +145,6 @@ COMMIT;
  Entrada y salida de la mazmorra, npcs asignados Escarador, con sus respectivas acciones y diálogos para teletransportar a los jugadores dentro y fuera de la mazmorra.
 ============================================================ */
 START TRANSACTION;
-INSERT INTO interactives_skills 
-(Type, Duration, `Condition`, CustomTemplateId, Parameter0, Parameter1, Parameter2, Parameter3, Parameter4, AdditionalParameters)
-VALUES  
-('Teleport', 0, NULL, NULL, 94110720, 458, 5, NULL, NULL, NULL),
-('Teleport', 0, NULL, NULL, 88080899, 231, 5, NULL, NULL, NULL);
-
-INSERT INTO interactives_spawns_skills
-(InteractiveSpawnId, SkillId)
-VALUES 
- (473640, 100357),
- (473639, 100358);
-
 INSERT INTO npcs_spawns 
 (NpcId, MapId, CellId, Direction, Npc)
 VALUES  
@@ -246,28 +224,6 @@ COMMIT;
  Entrada y salida de la mazmorra, npcs asignados Cochiportero y Blatarata, con sus respectivas acciones y diálogos para teletransportar a los jugadores dentro y fuera de la mazmorra.
 ============================================================ */
 START TRANSACTION;
-INSERT INTO interactives_skills 
-(Type, Duration, `Condition`, CustomTemplateId, Parameter0, Parameter1, Parameter2, Parameter3, Parameter4, AdditionalParameters)
-VALUES  
-('Teleport', 0, NULL, NULL, 103547392, 411, 7, NULL, NULL, NULL),
-/* = SALIDA = */
-('Teleport', 0, NULL, NULL, 191102980, 303, 3, NULL, NULL, NULL);
-
-INSERT INTO interactives_spawns_skills
-(InteractiveSpawnId, SkillId)
-VALUES 
- (515693, 100359),
-/* = SALIDA = */
- (515706, 100360);
-INSERT INTO interactives_skills 
-(Type, Duration, `Condition`, CustomTemplateId, Parameter0, Parameter1, Parameter2, Parameter3, Parameter4, AdditionalParameters)
-VALUES  
-('Teleport', 0, NULL, NULL, 146676736, 529, 5, NULL, NULL, NULL);
-INSERT INTO interactives_spawns_skills
-(InteractiveSpawnId, SkillId)
-VALUES 
- (487849, 100361);
-
 INSERT INTO npcs_spawns 
 (NpcId, MapId, CellId, Direction, Npc)
 VALUES  
@@ -322,17 +278,6 @@ COMMIT;
  Entrada y salida de la mazmorra, npcs asignados Bowork y Magobwork, con sus respectivas acciones y diálogos para teletransportar a los jugadores dentro y fuera de la mazmorra.
 ============================================================ */
 START TRANSACTION;
-INSERT INTO interactives_skills 
-(Type, Duration, `Condition`, CustomTemplateId, Parameter0, Parameter1, Parameter2, Parameter3, Parameter4, AdditionalParameters)
-VALUES 
-('Teleport', 0, NULL, NULL, 104071684, 256, 1, NULL, NULL, NULL);
-
-INSERT INTO interactives_spawns_skills
-(InteractiveSpawnId, SkillId)
-VALUES 
- (505484, 100362),
- (505486, 100362);
-
 INSERT INTO npcs_spawns 
 (NpcId, MapId, CellId, Direction, Npc)
 VALUES  
@@ -626,19 +571,6 @@ COMMIT;
  Entrada y salida de la mazmorra, npcs asignados Tassa, con sus respectivas acciones y diálogos para teletransportar a los jugadores dentro y fuera de la mazmorra.
 ============================================================ */
 START TRANSACTION;
-INSERT INTO interactives_skills 
-(Type, Duration, `Condition`, CustomTemplateId, Parameter0, Parameter1, Parameter2, Parameter3, Parameter4, AdditionalParameters)
-VALUES  
-('Teleport', 0, NULL, NULL, 177079296, 388, 5, NULL, NULL, NULL),
-/* = SALIDA = */
-('Teleport', 0, NULL, NULL, 173016577, 286, 1, NULL, NULL, NULL);
-
-INSERT INTO interactives_spawns_skills
-(InteractiveSpawnId, SkillId)
-VALUES 
- (510113, 100363),
-/* = SALIDA = */
- (510115, 100364);
 INSERT INTO npcs_spawns 
 (NpcId, MapId, CellId, Direction, Npc)
 VALUES  
@@ -761,19 +693,6 @@ COMMIT;
  Entrada y salida de la mazmorra, npcs asignados Sauce y Lasoberaña, con sus respectivas acciones y diálogos para teletransportar a los jugadores dentro y fuera de la mazmorra.
 ============================================================ */
 START TRANSACTION;
-INSERT INTO interactives_skills 
-(Type, Duration, `Condition`, CustomTemplateId, Parameter0, Parameter1, Parameter2, Parameter3, Parameter4, AdditionalParameters)
-VALUES  
-/* = SALIDA = */
-('Teleport', 0, NULL, NULL, 147853312, 299, 1, NULL, NULL, NULL);
-
-INSERT INTO interactives_spawns_skills
-(InteractiveSpawnId, SkillId)
-VALUES 
-/* = SALIDA = */
- (504667, 100365),
- (504668, 100365);
-
 INSERT INTO npcs_spawns 
 (NpcId, MapId, CellId, Direction, Npc)
 VALUES  
@@ -833,21 +752,7 @@ COMMIT;
  MAZMORRA: Carpa de los Magik Riktus
  Entrada y salida de la mazmorra, npcs asignados Cajera de los Magik Riktus y Judini, con sus respectivas acciones y diálogos para teletransportar a los jugadores dentro y fuera de la mazmorra.
 
-START TRANSACTION;
-INSERT INTO interactives_skills 
-(Type, Duration, `Condition`, CustomTemplateId, Parameter0, Parameter1, Parameter2, Parameter3, Parameter4, AdditionalParameters)
-VALUES  
-('Teleport', 0, NULL, NULL, 181797888, 542, 5, NULL, NULL, NULL),
-/* = SALIDA = */
-('Teleport', 0, NULL, NULL, 171969042, 342, 1, NULL, NULL, NULL);
-
-INSERT INTO interactives_spawns_skills
-(InteractiveSpawnId, SkillId)
-VALUES 
- (510109, 100366),
-/* = SALIDA = */
- (510146, 100367);
- 
+START TRANSACTION; 
 INSERT INTO npcs_spawns 
 (NpcId, MapId, CellId, Direction, Npc)
 VALUES  
