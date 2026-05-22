@@ -1944,6 +1944,74 @@ WHERE
 
 COMMIT;
 
+ /* ============================================================
+ MAZMORRA: Guarida de los Gélifux
+ Configuración completa de las celdas de teletransporte
+ ============================================================ */
+START TRANSACTION;
+
+/* ============================================================
+ SALA 1 A SALA 2 - DungeonSpawnId = 295
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 424
+WHERE
+  Id = 295;
+
+/* ============================================================
+ SALA 2 A SALA 3 - DungeonSpawnId = 296
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 479
+WHERE
+  Id = 296;
+
+/* ============================================================
+ SALA 3 A SALA 4 - DungeonSpawnId = 297
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 425
+WHERE
+  Id = 297;
+
+/* ============================================================
+ SALA 4 A SALA 5 - DungeonSpawnId = 298
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 425
+WHERE
+  Id = 298;
+
+/* ============================================================
+ SALA 5 A SALA Salida - DungeonSpawnId = 301
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 397
+WHERE
+  Id = 301;
+
+/* ============================================================
+ SALA 5 A SALA Salida - DungeonSpawnId = 300
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 397
+WHERE
+  Id = 300;
+
+COMMIT;
+
 /* ============================================================
  FIN DE SCRIPT
  ============================================================ */

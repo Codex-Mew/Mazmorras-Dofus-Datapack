@@ -8530,6 +8530,342 @@ VALUES
    (463, 18855, 8),
    (463, 18855, 8);
 
+/* ==========================================================================
+ SALA 1
+ DungeonSpawnId : 295
+ Tabla          : monsters_spawns_dungeons_groups
+ ========================================================================== */
+/*
+ Bloque de limpieza:
+ Elimina registros existentes para este DungeonSpawnId antes de reinsertarlos.
+ Esto evita filas duplicadas cuando el script se ejecuta múltiples veces.
+ */
+DELETE FROM
+   monsters_spawns_dungeons_groups
+WHERE
+   DungeonSpawnId = 295;
+
+/*
+ Bloque de inserción de datos
+ */
+INSERT INTO
+   monsters_spawns_dungeons_groups (
+      DungeonSpawnId,
+      MonsterGradeId,
+      MinPartyMembers
+   )
+VALUES
+   (295, 6558, 1),
+   (295, 6968, 1),
+   (295, 6553, 1),
+   (295, 6568, 1),
+   (295, 6558, 5),
+   (295, 6968, 5),
+   (295, 6553, 5),
+   (295, 6568, 5),
+   (295, 6553, 5),
+   (295, 6558, 6),
+   (295, 6968, 6),
+   (295, 6553, 6),
+   (295, 6568, 6),
+   (295, 6553, 6),
+   (295, 6968, 6),
+   (295, 6558, 7),
+   (295, 6968, 7),
+   (295, 6553, 7),
+   (295, 6568, 7),
+   (295, 6553, 7),
+   (295, 6968, 7),
+   (295, 6568, 7),
+   (295, 6558, 8),
+   (295, 6968, 8),
+   (295, 6553, 8),
+   (295, 6568, 8),
+   (295, 6553, 8),
+   (295, 6968, 8),
+   (295, 6568, 8),
+   (295, 6553, 8);
+
+/* ==========================================================================
+ SALA 2
+ DungeonSpawnId : 296
+ Tabla          : monsters_spawns_dungeons_groups
+ ========================================================================== */
+/*
+ Bloque de limpieza:
+ Elimina registros existentes para este DungeonSpawnId antes de reinsertarlos.
+ Esto evita filas duplicadas cuando el script se ejecuta múltiples veces.
+ */
+DELETE FROM
+   monsters_spawns_dungeons_groups
+WHERE
+   DungeonSpawnId = 296;
+
+/*
+ Bloque de inserción de datos
+ */
+INSERT INTO
+   monsters_spawns_dungeons_groups (
+      DungeonSpawnId,
+      MonsterGradeId,
+      MinPartyMembers
+   )
+VALUES
+   (296, 6564, 1),
+   (296, 6559, 1),
+   (296, 6559, 1),
+   (296, 6969, 1),
+   (296, 6564, 5),
+   (296, 6559, 5),
+   (296, 6559, 5),
+   (296, 6969, 5),
+   (296, 6564, 5),
+   (296, 6564, 6),
+   (296, 6559, 6),
+   (296, 6559, 6),
+   (296, 6969, 6),
+   (296, 6564, 6),
+   (296, 6969, 6),
+   (296, 6564, 7),
+   (296, 6559, 7),
+   (296, 6559, 7),
+   (296, 6969, 7),
+   (296, 6564, 7),
+   (296, 6969, 7),
+   (296, 6559, 7),
+   (296, 6564, 8),
+   (296, 6559, 8),
+   (296, 6559, 8),
+   (296, 6969, 8),
+   (296, 6564, 8),
+   (296, 6969, 8),
+   (296, 6559, 8),
+   (296, 6564, 8);
+
+/* ==========================================================================
+ SALA 3
+ DungeonSpawnId : 297
+ Tabla          : monsters_spawns_dungeons_groups
+ ========================================================================== */
+/*
+ Bloque de limpieza:
+ Elimina registros existentes para este DungeonSpawnId antes de reinsertarlos.
+ Esto evita filas duplicadas cuando el script se ejecuta múltiples veces.
+ */
+DELETE FROM
+   monsters_spawns_dungeons_groups
+WHERE
+   DungeonSpawnId = 297;
+
+/*
+ Bloque de inserción de datos
+ */
+INSERT INTO
+   monsters_spawns_dungeons_groups (
+      DungeonSpawnId,
+      MonsterGradeId,
+      MinPartyMembers
+   )
+VALUES
+   (297, 6555, 1),
+   (297, 6555, 1),
+   (297, 6570, 1),
+   (297, 6570, 1),
+   (297, 6555, 5),
+   (297, 6555, 5),
+   (297, 6570, 5),
+   (297, 6570, 5),
+   (297, 6555, 5),
+   (297, 6555, 6),
+   (297, 6555, 6),
+   (297, 6570, 6),
+   (297, 6570, 6),
+   (297, 6555, 6),
+   (297, 6570, 6),
+   (297, 6555, 7),
+   (297, 6555, 7),
+   (297, 6570, 7),
+   (297, 6570, 7),
+   (297, 6555, 7),
+   (297, 6570, 7),
+   (297, 6555, 7),
+   (297, 6555, 8),
+   (297, 6555, 8),
+   (297, 6570, 8),
+   (297, 6570, 8),
+   (297, 6555, 8),
+   (297, 6570, 8),
+   (297, 6555, 8),
+   (297, 6570, 8);
+
+/* ==========================================================================
+ SALA 4
+ DungeonSpawnId : 298
+ Tabla          : monsters_spawns_dungeons_groups
+ ========================================================================== */
+/*
+ Bloque de limpieza:
+ Elimina registros existentes para este DungeonSpawnId antes de reinsertarlos.
+ Esto evita filas duplicadas cuando el script se ejecuta múltiples veces.
+ */
+DELETE FROM
+   monsters_spawns_dungeons_groups
+WHERE
+   DungeonSpawnId = 298;
+
+/*
+ Bloque de inserción de datos
+ */
+INSERT INTO
+   monsters_spawns_dungeons_groups (
+      DungeonSpawnId,
+      MonsterGradeId,
+      MinPartyMembers
+   )
+VALUES
+   (298, 6566, 1),
+   (298, 6971, 1),
+   (298, 6971, 1),
+   (298, 6571, 1),
+   (298, 6566, 5),
+   (298, 6971, 5),
+   (298, 6971, 5),
+   (298, 6571, 5),
+   (298, 6566, 5),
+   (298, 6566, 6),
+   (298, 6971, 6),
+   (298, 6971, 6),
+   (298, 6571, 6),
+   (298, 6566, 6),
+   (298, 6571, 6),
+   (298, 6566, 7),
+   (298, 6971, 7),
+   (298, 6971, 7),
+   (298, 6571, 7),
+   (298, 6566, 7),
+   (298, 6571, 7),
+   (298, 6971, 7),
+   (298, 6566, 8),
+   (298, 6971, 8),
+   (298, 6971, 8),
+   (298, 6571, 8),
+   (298, 6566, 8),
+   (298, 6571, 8),
+   (298, 6971, 8),
+   (298, 6566, 8);
+
+/* ==========================================================================
+ SALA 5 - Fuji
+ DungeonSpawnId : 300
+ Tabla          : monsters_spawns_dungeons_groups
+ ========================================================================== */
+/*
+ Bloque de limpieza:
+ Elimina registros existentes para este DungeonSpawnId antes de reinsertarlos.
+ Esto evita filas duplicadas cuando el script se ejecuta múltiples veces.
+ */
+DELETE FROM
+   monsters_spawns_dungeons_groups
+WHERE
+   DungeonSpawnId = 300;
+
+/*
+ Bloque de inserción de datos
+ */
+INSERT INTO
+   monsters_spawns_dungeons_groups (
+      DungeonSpawnId,
+      MonsterGradeId,
+      MinPartyMembers
+   )
+VALUES
+   (300, 6906, 1),
+   (300, 7620, 1),
+   (300, 6557, 1),
+   (300, 6572, 1),
+   (300, 6907, 5),
+   (300, 7621, 5),
+   (300, 6557, 5),
+   (300, 6572, 5),
+   (300, 6562, 5),
+   (300, 6908, 6),
+   (300, 7622, 6),
+   (300, 6557, 6),
+   (300, 6572, 6),
+   (300, 6562, 6),
+   (300, 6567, 6),
+   (300, 6909, 7),
+   (300, 7623, 7),
+   (300, 6557, 7),
+   (300, 6572, 7),
+   (300, 6562, 7),
+   (300, 6567, 7),
+   (300, 6972, 7),
+   (300, 6910, 8),
+   (300, 7624, 8),
+   (300, 6557, 8),
+   (300, 6572, 8),
+   (300, 6562, 8),
+   (300, 6567, 8),
+   (300, 6972, 8),
+   (300, 6572, 8);
+
+/* ==========================================================================
+ SALA 5 - Tengu
+ DungeonSpawnId : 301
+ Tabla          : monsters_spawns_dungeons_groups
+ ========================================================================== */
+/*
+ Bloque de limpieza:
+ Elimina registros existentes para este DungeonSpawnId antes de reinsertarlos.
+ Esto evita filas duplicadas cuando el script se ejecuta múltiples veces.
+ */
+DELETE FROM
+   monsters_spawns_dungeons_groups
+WHERE
+   DungeonSpawnId = 301;
+
+/*
+ Bloque de inserción de datos
+ */
+INSERT INTO
+   monsters_spawns_dungeons_groups (
+      DungeonSpawnId,
+      MonsterGradeId,
+      MinPartyMembers
+   )
+VALUES
+   (301, 6906, 1),
+   (301, 6972, 1),
+   (301, 6557, 1),
+   (301, 6572, 1),
+   (301, 6907, 5),
+   (301, 6972, 5),
+   (301, 6557, 5),
+   (301, 6572, 5),
+   (301, 6562, 5),
+   (301, 6908, 6),
+   (301, 6972, 6),
+   (301, 6557, 6),
+   (301, 6572, 6),
+   (301, 6562, 6),
+   (301, 6567, 6),
+   (301, 6909, 7),
+   (301, 6972, 7),
+   (301, 6557, 7),
+   (301, 6572, 7),
+   (301, 6562, 7),
+   (301, 6567, 7),
+   (301, 6972, 7),
+   (301, 6910, 8),
+   (301, 6972, 8),
+   (301, 6557, 8),
+   (301, 6572, 8),
+   (301, 6562, 8),
+   (301, 6567, 8),
+   (301, 6972, 8),
+   (301, 6572, 8);
+
 COMMIT;
 
 SET
