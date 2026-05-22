@@ -4653,6 +4653,23 @@ VALUES
    (332, 6602, 8);
 
 /* ==========================================================================
+   Si aqui hay creditos! No se olviden de ponerlos, es importante para el proyecto y para los que lo hicieron posible! :3
+ ========================================================================== */
+DELETE FROM
+   announces
+WHERE
+   Message = '<p>Mazmorras completadas por CodexMew</p>';
+
+INSERT INTO
+   announces (Message, Color, Id)
+VALUES
+   (
+      '<p>Mazmorras completadas por CodexMew</p>',
+      16711680,
+      3
+   );
+
+/* ==========================================================================
  SALA 1
  DungeonSpawnId : 313
  Tabla          : monsters_spawns_dungeons_groups
