@@ -116,7 +116,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 476
+  TeleportCell = 411,
+  TeleportMapId = 101187584
 WHERE
   Id = 174;
 
@@ -238,7 +239,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 111
+  TeleportCell = 271,
+  TeleportMapId = 9508
 WHERE
   Id = 218;
 
@@ -299,7 +301,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 536
+  TeleportCell = 304,
+  TeleportMapId = 63310595
 WHERE
   Id = 223;
 
@@ -360,7 +363,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 446
+  TeleportCell = 271,
+  TeleportMapId = 101714451
 WHERE
   Id = 271;
 
@@ -421,7 +425,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 532
+  TeleportCell = 386,
+  TeleportMapId = 174850048
 WHERE
   Id = 307;
 
@@ -482,7 +487,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 492
+  TeleportCell = 360,
+  TeleportMapId = 172493057
 WHERE
   Id = 312;
 
@@ -543,7 +549,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 547
+  TeleportCell = 316,
+  TeleportMapId = 181146624
 WHERE
   Id = 319;
 
@@ -665,7 +672,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 212
+  TeleportCell = 314,
+  TeleportMapId = 60036612
 WHERE
   Id = 332;
 
@@ -726,7 +734,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 450
+  TeleportCell = 258  ,
+  TeleportMapId = 54165323
 WHERE
   Id = 344;
 
@@ -787,7 +796,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 466
+  TeleportCell = 203,
+  TeleportMapId = 54159661
 WHERE
   Id = 349;
 
@@ -848,7 +858,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 558
+  TeleportCell = 357,
+  TeleportMapId = 88083210
 WHERE
   Id = 354;
 
@@ -909,7 +920,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 518
+  TeleportCell = 315,
+  TeleportMapId = 179438082
 WHERE
   Id = 359;
 
@@ -970,7 +982,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 530
+  TeleportCell = 166,
+  TeleportMapId = 108793115
 WHERE
   Id = 364;
 
@@ -1031,7 +1044,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 547
+  TeleportCell = 243,
+  TeleportMapId = 108927238
 WHERE
   Id = 374;
 
@@ -1092,7 +1106,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 431
+  TeleportCell = 370,
+  TeleportMapId = 111281417
 WHERE
   Id = 384;
 
@@ -1153,7 +1168,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 529
+  TeleportCell = 163,
+  TeleportMapId = 95422464
 WHERE
   Id = 389;
 
@@ -1214,7 +1230,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 516
+  TeleportCell = 386,
+  TeleportMapId = 140641537
 WHERE
   Id = 396;
 
@@ -1275,7 +1292,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 532
+  TeleportCell = 438,
+  TeleportMapId = 169084930
 WHERE
   Id = 403;
 
@@ -1336,7 +1354,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 365
+  TeleportCell = 442,
+  TeleportMapId = 168560640
 WHERE
   Id = 408;
 
@@ -1397,7 +1416,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 548
+  TeleportCell = 355,
+  TeleportMapId = 168820736
 WHERE
   Id = 413;
 
@@ -1458,7 +1478,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 548
+  TeleportCell = 437,
+  TeleportMapId = 179831808
 WHERE
   Id = 423;
 
@@ -1519,7 +1540,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 468
+  TeleportCell = 330,
+  TeleportMapId = 183108098
 WHERE
   Id = 438;
 
@@ -1580,7 +1602,8 @@ WHERE
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 547
+  TeleportCell = 274,
+  TeleportMapId = 194779138
 WHERE
   Id = 443;
 
@@ -1623,8 +1646,8 @@ START TRANSACTION;
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 464,
-  TeleportMapId = 34473476
+  TeleportCell = 325,
+  TeleportMapId = 152849
 WHERE
   Id = 208;
 
@@ -1645,8 +1668,8 @@ START TRANSACTION;
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 392,
-  TeleportMapId = 21498882
+  TeleportCell = 199,
+  TeleportMapId = 25693696
 WHERE
   Id = 282;
 
@@ -1938,7 +1961,8 @@ START TRANSACTION;
 UPDATE
   monsters_spawns_dungeons
 SET
-  TeleportCell = 336
+  TeleportCell = 257,
+  TeleportMapId = 54164807
 WHERE
   Id = 339;
 
@@ -2009,6 +2033,490 @@ SET
   TeleportCell = 397
 WHERE
   Id = 300;
+
+/* ============================================================
+ Mazmorra de las larvas - DungeonSpawnId = 75
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 396,
+  TeleportMapId = 185862148
+WHERE
+  Id = 75;
+
+/* ============================================================
+ Cala del Arca de Otomai - DungeonSpawnId = 119
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 246,
+  TeleportMapId = 159492
+WHERE
+  Id = 119;
+
+/* ============================================================
+ Carpa de los Magik Riktus - DungeonSpawnId = 154
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 303,
+  TeleportMapId = 181797888
+WHERE
+  Id = 154;
+
+/* ============================================================
+ Antro del Dragocerdo - DungeonSpawnId = 444
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 199,
+  TeleportMapId = 72221696
+WHERE
+  Id = 444;
+
+/* ============================================================
+ Guarida del Maxilubo - DungeonSpawnId = 164
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 372,
+  TeleportMapId = 171706891
+WHERE
+  Id = 164;
+
+/* ============================================================
+ Cueva del Trankitronko - DungeonSpawnId = 169
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 109,
+  TeleportMapId = 139784
+WHERE
+  Id = 169;
+
+/* ============================================================
+ Teatro de Dramak - DungeonSpawnId = 179
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 441,
+  TeleportMapId = 117965057
+WHERE
+  Id = 179;
+
+/* ============================================================
+ Fábrica de Malefíscof - DungeonSpawnId = 180
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 299,
+  TeleportMapId = 130285568
+WHERE
+  Id = 180;
+
+/* ============================================================
+ Árbol de Moon - DungeonSpawnId = 185
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 328,
+  TeleportMapId = 156499968
+WHERE
+  Id = 185;
+
+/* ============================================================
+ Árbol de Moon - DungeonSpawnId = 186
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 314,
+  TeleportMapId = 158334976
+WHERE
+  Id = 186;
+
+/* ============================================================
+ Boca del Rasgabola - DungeonSpawnId = 196
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 286,
+  TeleportMapId = 89916416
+WHERE
+  Id = 196;
+
+/* ============================================================
+ Mazmorra de las Ratas de Bonta - DungeonSpawnId = 201
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 206,
+  TeleportMapId = 25035524
+WHERE
+  Id = 201;
+
+/* ============================================================
+ Mazmorra de las Ratas de Brakmar - DungeonSpawnId = 206
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 163,
+  TeleportMapId = 28443909
+WHERE
+  Id = 206;
+
+/* ============================================================
+ Miausoleo de Piojoporojo - DungeonSpawnId = 207
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 248,
+  TeleportMapId = 161222914
+WHERE
+  Id = 207;
+
+/* ============================================================
+ Mazmorra de los Dragohuevos - DungeonSpawnId = 213
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 358,
+  TeleportMapId = 86248450
+WHERE
+  Id = 213;
+
+/* ============================================================
+ Tofullinero Real - DungeonSpawnId = 228
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 259,
+  TeleportMapId = 96338944
+WHERE
+  Id = 228;
+
+/* ============================================================
+ Invernáculo de Jalamut Real - DungeonSpawnId = 233
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 452,
+  TeleportMapId = 54176049
+WHERE
+  Id = 233;
+
+/* ============================================================
+ Megalito de Fraktal - DungeonSpawnId = 234
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 290,
+  TeleportMapId = 144969990
+WHERE
+  Id = 234;
+
+/* ============================================================
+ Mazmorra de los Kitsus - DungeonSpawnId = 239
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 398,
+  TeleportMapId = 16678
+WHERE
+  Id = 239;
+
+/* ============================================================
+ Pajarera de Thor Pestruz - DungeonSpawnId = 244
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 274,
+  TeleportMapId = 136446722
+WHERE
+  Id = 244;
+
+/* ============================================================
+ Ring del Capitán Eskarlata - DungeonSpawnId = 245
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 317,
+  TeleportMapId = 136577024
+WHERE
+  Id = 245;
+
+/* ============================================================
+ Caverna de El Piko - DungeonSpawnId = 250
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 205,
+  TeleportMapId = 173540352
+WHERE
+  Id = 250;
+
+/* ============================================================
+ Claro del Roble Blando - DungeonSpawnId = 250
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 231,
+  TeleportMapId = 149422080
+WHERE
+  Id = 250;
+
+/* ============================================================
+ Mazmorra de los Firefux - DungeonSpawnId = 256
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 232,
+  TeleportMapId = 13613
+WHERE
+  Id = 256;
+
+/* ============================================================
+ Laboratorio del Tynril - DungeonSpawnId = 261
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 358,
+  TeleportMapId = 63964672
+WHERE
+  Id = 261;
+
+/* ============================================================
+ Excavación de Morsagüino Real - DungeonSpawnId = 266
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 213,
+  TeleportMapId = 54165815
+WHERE
+  Id = 266;
+
+/* ============================================================
+ Restos del Roca Negra - DungeonSpawnId = 276
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 385,
+  TeleportMapId = 54165334
+WHERE
+  Id = 276;
+
+/* ============================================================
+ Galería de Perfósil - DungeonSpawnId = 277
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 288,
+  TeleportMapId = 130547712
+WHERE
+  Id = 277;
+
+/* ============================================================
+ Sala del Minotot - DungeonSpawnId = 283
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 325,
+  TeleportMapId = 152849
+WHERE
+  Id = 283;
+
+/* ============================================================
+ Hipogeo del Obsidiantre - DungeonSpawnId = 288
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 164,
+  TeleportMapId = 54170450
+WHERE
+  Id = 288;
+
+/* ============================================================
+ Gruta de Kanígrula - DungeonSpawnId = 293
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 315,
+  TeleportMapId = 126091545
+WHERE
+  Id = 293;
+
+/* ============================================================
+ Plataforma de Ush - DungeonSpawnId = 294
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 328,
+  TeleportMapId = 160960771
+WHERE
+  Id = 294;
+
+/* ============================================================
+ Relojarium de XLII - DungeonSpawnId = 302
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 318,
+  TeleportMapId = 144707846
+WHERE
+  Id = 302;
+
+/* ============================================================
+ Cueva de Toxoliat - DungeonSpawnId = 333
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 275,
+  TeleportMapId = 135269891
+WHERE
+  Id = 333;
+
+/* ============================================================
+ Sala Privada de Klim - DungeonSpawnId = 369
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 398,
+  TeleportMapId = 108925717
+WHERE
+  Id = 369;
+
+/* ============================================================
+ Laboratorio de Nileza - DungeonSpawnId = 379
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 415,
+  TeleportMapId = 108794630
+WHERE
+  Id = 379;
+
+/* ============================================================
+ Palacio del Rey Nidas - DungeonSpawnId = 390
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 399,
+  TeleportMapId = 129236992
+WHERE
+  Id = 390;
+
+/* ============================================================
+ Trono de la Corte Tenebrosa - DungeonSpawnId = 391
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 331,
+  TeleportMapId = 136054022
+WHERE
+  Id = 391;
+
+/* ============================================================
+ Ojo de Vórtex - DungeonSpawnId = 397
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 290,
+  TeleportMapId = 144445702
+WHERE
+  Id = 397;
+
+/* ============================================================
+ Ojo de Vórtex - DungeonSpawnId = 398
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 329,
+  TeleportMapId = 160565248
+WHERE
+  Id = 398;
+
+/* ============================================================
+ Cámara de Tal Kasha - DungeonSpawnId = 418
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 272,
+  TeleportMapId = 175643652
+WHERE
+  Id = 418;
+
+/* ============================================================
+ Mirador de Ilyzaelle - DungeonSpawnId = 428
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 329,
+  TeleportMapId = 183632898
+WHERE
+  Id = 428;
+
+/* ============================================================
+ Torre de Bethel - DungeonSpawnId = 433
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 485,
+  TeleportMapId = 186384896
+WHERE
+  Id = 433;
+
+/* ============================================================
+ Mazmorra de Waddictos - DungeonSpawnId = 453
+ ============================================================ */
+UPDATE
+  monsters_spawns_dungeons
+SET
+  TeleportCell = 375,
+  TeleportMapId = 196346371
+WHERE
+  Id = 453;
 
 COMMIT;
 
